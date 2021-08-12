@@ -1,11 +1,7 @@
 import org.testng.annotations.Test;
-import groovy.util.logging.Log;
 import static io.restassured.RestAssured.*;
-import io.restassured.response.Response;
-import static org.hamcrest.Matchers.*;
-
-import java.net.http.HttpResponse.BodyHandler;
 import java.util.concurrent.TimeUnit;
+
 
 @Test
 public class Test_03POST {
